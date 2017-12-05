@@ -15,7 +15,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     @IBOutlet var sceneView: ARSCNView!
     
     var planeGeometry:SCNPlane!
-    let planeIdentifiers = [UUID]()
     var anchors = [ARAnchor]()
     var sceneLight:SCNLight!
     
